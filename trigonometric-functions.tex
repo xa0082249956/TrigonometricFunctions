@@ -3,6 +3,7 @@
 \usepackage{amsmath}
 \usepackage{tikz}
 \usepackage{multicol}
+\pagestyle{plain}
 
 % lshort 5.3
 \usepackage[hmargin=0.5in, vmargin=1in]{geometry}
@@ -26,275 +27,271 @@
 		\emph{（如未作特殊说明，则 $k \in \mathbb{Z}$）} \par
 	\end{center} 
 	\begin{multicols}{2}
-	\section{终边关系及诱导公式}
-	\subsection{终边相同 $\beta = \alpha + 2k\pi$}
-	\diform
-	\begin{align*}
-	\sin\left(\alpha+2k\pi\right)&=\sin\alpha \\
-	\cos\left(\alpha+2k\pi\right)&=\cos\alpha \\
-	\tan\left(\alpha+2k\pi\right)&=\tan\alpha \\
-	\cot\left(\alpha+2k\pi\right)&=\cot\alpha \\
-	\end{align*}
-	
-	\subsection{终边关于原点对称 $\beta = (2k+1)\pi+\alpha$}
-	\diform
-	\begin{align*}
-	\sin\left[\alpha+\left(2k+1\right)\pi\right]&=-\sin\alpha \\
-	\cos\left[\alpha+\left(2k+1\right)\pi\right]&=-\cos\alpha \\
-	\tan\left[\alpha+\left(2k+1\right)\pi\right]&=-\tan\alpha \\
-	\cot\left[\alpha+\left(2k+1\right)\pi\right]&=-\cot\alpha \\
-	\end{align*}
-	
-	
-	\subsection{终边关于 $ x $ 轴对称 $\beta = 2k \pi - \alpha$}
-	\diform
-	\begin{align*}
-	\sin\left(2k\pi-\alpha\right)&=-\sin\alpha \\
-	\cos\left(2k\pi-\alpha\right)&=\cos\alpha \\
-	\tan\left(2k\pi-\alpha\right)&=-\tan\alpha \\
-	\cot\left(2k\pi-\alpha\right)&=-\cot\alpha \\
-	\end{align*}
-	
-	\subsection{终边关于 $ y $ 轴对称 $\beta=(2k+1)\pi-\alpha$}
-	\diform
-	\begin{align*}
-	\sin\left[\left(2k+1\right)\pi-\alpha\right]&=-\sin\alpha \\
-	\cos\left[\left(2k+1\right)\pi-\alpha\right]&=\cos\alpha \\
-	\tan\left[\left(2k+1\right)\pi-\alpha\right]&=-\tan\alpha \\
-	\cot\left[\left(2k+1\right)\pi-\alpha\right]&=-\cot\alpha \\
-	\end{align*}
-
-	\subsection{诱导公式}
-	\textit{奇变偶不变，符号看象限}
-	
-	\begin{multicols}{2}[\setlength{\columnseprule}{0pt}\setlength{\columnseprule}{0pt}]
-	\setlength{\parskip}{-10ex}
+		\section{终边关系及诱导公式}
+		\subsection{终边相同 $\beta = \alpha + 2k\pi$}
+		\diform
 		\begin{align*}
-		& \sin\left( \pi + \alpha \right) = -\sin\alpha \\
-		& \sin\left( 2\pi + \alpha \right) = \sin\alpha \\
-		& \sin\left( \frac\pi2 - \alpha \right) = \cos\alpha \\
-		& \sin\left( \frac{3\pi}2 - \alpha \right) = -\cos\alpha \\
+		\sin\left(\alpha+2k\pi\right)&=\sin\alpha \\
+		\cos\left(\alpha+2k\pi\right)&=\cos\alpha \\
+		\tan\left(\alpha+2k\pi\right)&=\tan\alpha \\
+		\cot\left(\alpha+2k\pi\right)&=\cot\alpha \\
 		\end{align*}
+		
+		\subsection{终边关于原点对称 $\beta = (2k+1)\pi+\alpha$}
+		\diform
+		\begin{align*}
+		\sin\left[\alpha+\left(2k+1\right)\pi\right]&=-\sin\alpha \\
+		\cos\left[\alpha+\left(2k+1\right)\pi\right]&=-\cos\alpha \\
+		\tan\left[\alpha+\left(2k+1\right)\pi\right]&=-\tan\alpha \\
+		\cot\left[\alpha+\left(2k+1\right)\pi\right]&=-\cot\alpha \\
+		\end{align*}
+		
+		
+		\subsection{终边关于 $ x $ 轴对称 $\beta = 2k \pi - \alpha$}
+		\diform
+		\begin{align*}
+		\sin\left(2k\pi-\alpha\right)&=-\sin\alpha \\
+		\cos\left(2k\pi-\alpha\right)&=\cos\alpha \\
+		\tan\left(2k\pi-\alpha\right)&=-\tan\alpha \\
+		\cot\left(2k\pi-\alpha\right)&=-\cot\alpha \\
+		\end{align*}
+		
+		\subsection{终边关于 $ y $ 轴对称 $\beta=(2k+1)\pi-\alpha$}\diform
+			\begin{align*}
+			\sin\left[\left(2k+1\right)\pi-\alpha\right]&=-\sin\alpha \\
+			\cos\left[\left(2k+1\right)\pi-\alpha\right]&=\cos\alpha \\
+			\tan\left[\left(2k+1\right)\pi-\alpha\right]&=-\tan\alpha \\
+			\cot\left[\left(2k+1\right)\pi-\alpha\right]&=-\cot\alpha \\
+			\end{align*}
+		\subsection{诱导公式}
+		\textit{奇变偶不变，符号看象限}
+		
+		\begin{multicols}{2}[\setlength{\columnseprule}{0pt}\setlength{\columnseprule}{0pt}]
+	%		\setlength{\parskip}{-10ex}
+			\begin{align*}
+			& \sin\left( \pi + \alpha \right) = -\sin\alpha \\
+			& \sin\left( 2\pi + \alpha \right) = \sin\alpha \\
+			& \sin\left( \frac\pi2 - \alpha \right) = \cos\alpha \\
+			& \sin\left( \frac{3\pi}2 - \alpha \right) = -\cos\alpha \\
+			\end{align*}
+				
+			\begin{align*}
+			& \cos\left( \pi + \alpha \right) = -\cos\alpha \\
+			& \cos\left( 2\pi + \alpha \right) = \cos\alpha \\
+			& \cos\left( \frac\pi2 - \alpha \right) = \sin\alpha \\
+			& \cos\left( \frac{3\pi}2 - \alpha \right) = -\sin\alpha \\
+			\end{align*}
 			
+			\begin{align*}
+			& \tan\left( \pi + \alpha \right) = \tan\alpha \\
+			& \tan\left( 2\pi + \alpha \right) = \tan\alpha \\
+			& \tan\left( \frac\pi2 - \alpha \right) = \cot\alpha \\
+			& \tan\left( \frac{3\pi}2 - \alpha \right) = \cot\alpha \\
+			\end{align*}
+			
+			\begin{align*}
+			& \cot\left( \pi + \alpha \right) = \cot\alpha \\
+			& \cot\left( 2\pi + \alpha \right) = \cot\alpha \\
+			& \cot\left( \frac\pi2 - \alpha \right) = \tan\alpha \\
+			& \cot\left( \frac{3\pi}2 - \alpha \right) = \tan\alpha \\
+			\end{align*}
+			
+			\begin{align*}
+			& \sin\left( \pi - \alpha \right) = \sin\alpha \\
+			& \sin\left( 2\pi - \alpha \right) = -\sin\alpha \\
+			& \sin\left( \frac\pi2 + \alpha \right) = \cos\alpha \\
+			& \sin\left( \frac{3\pi}2 + \alpha \right) = -\cos\alpha \\
+			\end{align*}
+			
+			\begin{align*}
+			& \cos\left( \pi - \alpha \right) = \cos\alpha \\
+			& \cos\left( 2\pi - \alpha \right) = -\cos\alpha \\
+			& \cos\left( \frac\pi2 + \alpha \right) = -\sin\alpha \\
+			& \cos\left( \frac{3\pi}2 + \alpha \right) = \sin\alpha \\
+			\end{align*}
+			
+			\begin{align*}
+			& \tan\left( \pi - \alpha \right) = -\tan\alpha \\
+			& \tan\left( 2\pi - \alpha \right) = -\tan\alpha \\
+			& \tan\left( \frac\pi2 + \alpha \right) = -\cot\alpha \\
+			& \tan\left( \frac{3\pi}2 + \alpha \right) = -\cot\alpha \\
+			\end{align*}
+			
+			\begin{align*}		
+			& \cot\left( \pi - \alpha \right) = -\cot\alpha \\
+			& \cot\left( 2\pi - \alpha \right) = -\cot\alpha \\
+			& \cot\left( \frac\pi2 + \alpha \right) = -\tan\alpha \\
+			& \cot\left( \frac{3\pi}2 + \alpha \right) = -\tan\alpha \\
+			\end{align*}
+			
+		\end{multicols}
+	
+		\section{同角三角函数基本关系}
+	
+		\subsection{平方关系}
+		\diform
+		\[\sin^2\alpha+\cos^2\alpha=1\]
+		\[\tan^2\alpha+1=\sec^2\alpha\]
+		\[1+\cot^2\alpha=\csc^2\alpha\]
+	
+		\subsection{倒数关系}
+		\diform
+		
+	%	\[\cot\alpha=\frac1{\tan\alpha}\]
+	%	\[\sec\alpha=\frac1{\cos\alpha}\]\hspace{1em}
+	%	\[\csc\alpha=\frac1{\sin\alpha}\]
+		
 		\begin{align*}
-		& \cos\left( \pi + \alpha \right) = -\cos\alpha \\
-		& \cos\left( 2\pi + \alpha \right) = \cos\alpha \\
-		& \cos\left( \frac\pi2 - \alpha \right) = \sin\alpha \\
-		& \cos\left( \frac{3\pi}2 - \alpha \right) = -\sin\alpha \\
+		\cot\alpha&=\frac1{\tan\alpha} &
+		\sec\alpha&=\frac1{\cos\alpha} &
+		\csc\alpha&=\frac1{\sin\alpha} 
 		\end{align*}
-		
-		\setlength{\parskip}{-10ex}
-		
+	
+		\subsection{商数关系}
+		\diform
 		\begin{align*}
-		& \tan\left( \pi + \alpha \right) = \tan\alpha \\
-		& \tan\left( 2\pi + \alpha \right) = \tan\alpha \\
-		& \tan\left( \frac\pi2 - \alpha \right) = \cot\alpha \\
-		& \tan\left( \frac{3\pi}2 - \alpha \right) = \cot\alpha \\
+			\sin\alpha&=\frac{\cos\alpha}{\cot\alpha} &
+			\cos\alpha&=\frac{\cot\alpha}{\csc\alpha} &
+			\tan\alpha&=\frac{\sin\alpha}{\cos\alpha} \\
+			\cot\alpha&=\frac{\csc\alpha}{\sec\alpha} &
+			\csc\alpha&=\frac{\sec\alpha}{\tan\alpha} &
+			\sec\alpha&=\frac{\tan\alpha}{\sin\alpha} 
 		\end{align*}
+	
+		\section{和差公式}
+		\subsection{$\sin$}
+		\diform
+		\[ \sin\left( \alpha+\beta \right) 
+		= \sin\alpha\cos\beta + \cos\alpha\sin\beta \]
+		\[ \sin\left( \alpha-\beta \right) 
+		= \sin\alpha\cos\beta - \cos\alpha\sin\beta \]
 		
+		\subsection{$\cos$}
+		\diform
+		\[ \cos\left( \alpha + \beta \right) =
+		\cos\alpha\cos\beta - \sin\alpha\sin\beta \]
+		\[ \cos\left( \alpha - \beta \right) =
+		\cos\alpha\cos\beta + \sin\alpha\sin\beta \] 
+	
+		\subsection{$\tan$}
+		\diform
+		\[ \tan\left( \alpha + \beta \right) = 
+		\frac{\tan\alpha + \tan\beta}{1 - \tan\alpha\tan\beta}\]
+		\[ \tan\left( \alpha - \beta \right) = 
+		\frac{\tan\alpha - \tan\beta}{1 + \tan\alpha\tan\beta}\]
+	
+		\section{积化和差公式}
+		\subsection{前后不同}
+		\diform
+		\[\sin\alpha\cos\beta=\frac{1}{2}\left[
+		\sin\left(\alpha+\beta\right)+
+		\sin\left(\alpha-\beta\right)\right]\]
+		\[\cos\alpha\sin\beta=\frac{1}{2}\left[
+		\sin\left(\alpha+\beta\right)-
+		\sin\left(\alpha-\beta\right)\right]\]
+		
+		\subsection{前后相同}
+		\diform
+		\[\cos\alpha\cos\beta=\frac{1}{2}\left[
+		\cos\left(\alpha+\beta\right)+
+		\cos\left(\alpha-\beta\right)\right]\]
+		\[\sin\alpha\sin\beta=\frac{1}{2}\left[
+		\cos\left(\alpha+\beta\right)-
+		\cos\left(\alpha-\beta\right)\right]\]
+		
+		
+		\section{和差化积公式}
+		\emph{令 $ A = \alpha + \beta, B = \alpha - \beta $, 
+		则 $ \alpha = \frac{A+B}{2}, \beta = \frac{A-B}{2} $}.
+	
+		\subsection{}
+		\diform
+		\[ \sin(\alpha + \beta) + \sin(\alpha - \beta) = 
+		2 \sin\alpha\cos\beta \]
+		\[ \sin(\alpha + \beta) - \sin(\alpha - \beta) = 
+		2 \cos\alpha\sin\beta \]
+		
+		\subsection{}
+		\diform
+		\[ \cos(\alpha + \beta) + \cos(\alpha - \beta) = 
+		2 \cos\alpha\cos\beta \]
+		\[ \cos(\alpha + \beta) - \cos(\alpha - \beta) = 
+		-2 \sin\alpha\sin\beta \]
+		
+		\subsection{}
+		\diform
+		\[ \sin A + \sin B 
+		= 2 \sin \frac{A + B}{2} \cos \frac{A - B}{2} \]
+		\[ \sin A - \sin B 
+		= 2 \cos \frac{A + B}{2} \sin \frac{A - B}{2} \] 
+		
+		\subsection{}
+		\diform
+		\[ \cos A + \cos B 
+		= 2 \cos \frac{A + B}{2} \cos \frac{A - B}{2} \]
+		\[ \cos A - \cos B 
+		=-2 \sin \frac{A + B}{2} \sin \frac{A - B}{2} \] 
+		
+		\section{二倍角公式}
+		\diform
+		\[ \sin2\alpha = 2 \sin\alpha \cos\alpha \]
 		\begin{align*}
-		& \cot\left( \pi + \alpha \right) = \cot\alpha \\
-		& \cot\left( 2\pi + \alpha \right) = \cot\alpha \\
-		& \cot\left( \frac\pi2 - \alpha \right) = \tan\alpha \\
-		& \cot\left( \frac{3\pi}2 - \alpha \right) = \tan\alpha \\
+		\cos2\alpha = \cos^2\alpha-\sin^2\alpha
+		= 2\cos^2\alpha - 1 \\ = 1 - 2\sin^2\alpha
 		\end{align*}
-		
+		\[ \tan2\alpha = \frac{2\tan\alpha}{1-2\tan\alpha} \]
+	
+		\section{半角公式}
+		\diform
+		\[ \cos\frac\beta2 = \pm \sqrt{\frac{1+\cos\beta}{2}}
+	 	= \frac{1-\tan^2\left(\beta/2\right)}{1+\tan^2\left(\beta/2\right)} \]
+		\[ \sin\frac\beta2 = \pm \sqrt{\frac{1-\cos\beta}{2}}
+		= \frac{2\tan\left(\beta/2\right)}{1-\tan^2\left(\beta/2\right)} \]
+		\[ \tan\frac\beta2 = \pm \sqrt{\frac{1-\cos\beta}{1+\cos\beta}}
+		= \frac{\sin\beta}{1+\cos\beta}
+		= \frac{1-\cos\beta}{\sin\beta}  \]
+	
+		\section{三倍角公式}
+		\diform
+		\[ \sin3\theta = 4\sin\theta 
+		\cdot \sin\left(60\degree-\theta\right)
+		\cdot \sin\left(60\degree+\theta\right) \]
+		\[ \cos3\theta = 4\cos\theta 
+		\cdot \cos\left(60\degree-\theta\right)
+		\cdot \cos\left(60\degree+\theta\right) \]
+		\[ \tan3\theta = 4\tan\theta 
+		\cdot \tan\left(60\degree-\theta\right)
+		\cdot \tan\left(60\degree+\theta\right) \]
+		\[ \cot3\theta = 4\cot\theta 
+		\cdot \cot\left(60\degree-\theta\right)
+		\cdot \cot\left(60\degree+\theta\right) \]
+	
+		\section{n 倍角公式}
+		$ \binom{n}{m} =\frac{n!}{\left( n - m\right)! m!} $
+		( $ m, n \in \mathbb{N^+}, m < n $ )
+	%	http://bbs.ctex.org/forum.php?mod=viewthread&tid=46466
 		\begin{align*}
-		& \sin\left( \pi - \alpha \right) = \sin\alpha \\
-		& \sin\left( 2\pi - \alpha \right) = -\sin\alpha \\
-		& \sin\left( \frac\pi2 + \alpha \right) = \cos\alpha \\
-		& \sin\left( \frac{3\pi}2 + \alpha \right) = -\cos\alpha \\
+			\sin\left(n\theta\right)
+			= & \binom n1\sin\theta\cos^{n-1}\theta
+			- \binom n3\sin^{3}\theta\cos^{n-3}\theta \\
+			+ & \binom n5\sin^{5}\theta\cos^{n-5}\theta \cdots 
 		\end{align*}
-		
 		\begin{align*}
-		& \cos\left( \pi - \alpha \right) = \cos\alpha \\
-		& \cos\left( 2\pi - \alpha \right) = -\cos\alpha \\
-		& \cos\left( \frac\pi2 + \alpha \right) = -\sin\alpha \\
-		& \cos\left( \frac{3\pi}2 + \alpha \right) = \sin\alpha \\
+			\cos\left(n\theta\right) 
+			= & \binom n0\cos^{n}\theta
+			- \binom n2\sin^{2}\theta\cos^{n-2}\theta \\
+			+ & \binom n4\sin^{4}\theta\cos^{n-4}\theta \cdots
 		\end{align*}
 		
-		\begin{align*}
-		& \tan\left( \pi - \alpha \right) = -\tan\alpha \\
-		& \tan\left( 2\pi - \alpha \right) = -\tan\alpha \\
-		& \tan\left( \frac\pi2 + \alpha \right) = -\cot\alpha \\
-		& \tan\left( \frac{3\pi}2 + \alpha \right) = -\cot\alpha \\
-		\end{align*}
+		\section{三角形中的三角函数关系}
+		\diform
+		\[\angle A + \angle B + \angle C = \pi \]
+		\[ \sin\left (A + B \right ) = \sin C \]
+		\[ \cos\left (A + B \right ) = -\cos C \]
+		\[ \sin\frac{A + B}{2} = \cos \frac C2 \]
+		\[ \cos\frac{A + B}{2} = \sin \frac C2 \]
 		
-		\begin{align*}		
-		& \cot\left( \pi - \alpha \right) = -\cot\alpha \\
-		& \cot\left( 2\pi - \alpha \right) = -\cot\alpha \\
-		& \cot\left( \frac\pi2 + \alpha \right) = -\tan\alpha \\
-		& \cot\left( \frac{3\pi}2 + \alpha \right) = -\tan\alpha \\
-		\end{align*}
-		
-	\end{multicols}
-
-	\section{同角三角函数基本关系}
-
-	\subsection{平方关系}
-	\diform
-	\[\sin^2\alpha+\cos^2\alpha=1\]
-	\[\tan^2\alpha+1=\sec^2\alpha\]
-	\[1+\cot^2\alpha=\csc^2\alpha\]
-
-	\subsection{倒数关系}
-	\diform
-	
-%	\[\cot\alpha=\frac1{\tan\alpha}\]
-%	\[\sec\alpha=\frac1{\cos\alpha}\]\hspace{1em}
-%	\[\csc\alpha=\frac1{\sin\alpha}\]
-	
-	\begin{align*}
-	\cot\alpha&=\frac1{\tan\alpha} &
-	\sec\alpha&=\frac1{\cos\alpha} &
-	\csc\alpha&=\frac1{\sin\alpha} 
-	\end{align*}
-
-	\subsection{商数关系}
-	\diform
-	\begin{align*}
-		\sin\alpha&=\frac{\cos\alpha}{\cot\alpha} &
-		\cos\alpha&=\frac{\cot\alpha}{\csc\alpha} &
-		\tan\alpha&=\frac{\sin\alpha}{\cos\alpha} \\
-		\cot\alpha&=\frac{\csc\alpha}{\sec\alpha} &
-		\csc\alpha&=\frac{\sec\alpha}{\tan\alpha} &
-		\sec\alpha&=\frac{\tan\alpha}{\sin\alpha} 
-	\end{align*}
-
-	\section{和差公式}
-	\subsection{$\sin$}
-	\diform
-	\[ \sin\left( \alpha+\beta \right) 
-	= \sin\alpha\cos\beta + \cos\alpha\sin\beta \]
-	\[ \sin\left( \alpha-\beta \right) 
-	= \sin\alpha\cos\beta - \cos\alpha\sin\beta \]
-	
-	\subsection{$\cos$}
-	\diform
-	\[ \cos\left( \alpha + \beta \right) =
-	\cos\alpha\cos\beta - \sin\alpha\sin\beta \]
-	\[ \cos\left( \alpha - \beta \right) =
-	\cos\alpha\cos\beta + \sin\alpha\sin\beta \] 
-
-	\subsection{$\tan$}
-	\diform
-	\[ \tan\left( \alpha + \beta \right) = 
-	\frac{\tan\alpha + \tan\beta}{1 - \tan\alpha\tan\beta}\]
-	\[ \tan\left( \alpha - \beta \right) = 
-	\frac{\tan\alpha - \tan\beta}{1 + \tan\alpha\tan\beta}\]
-
-	\section{积化和差公式}
-	\subsection{前后不同}
-	\diform
-	\[\sin\alpha\cos\beta=\frac{1}{2}\left[
-	\sin\left(\alpha+\beta\right)+
-	\sin\left(\alpha-\beta\right)\right]\]
-	\[\cos\alpha\sin\beta=\frac{1}{2}\left[
-	\sin\left(\alpha+\beta\right)-
-	\sin\left(\alpha-\beta\right)\right]\]
-	
-	\subsection{前后相同}
-	\diform
-	\[\cos\alpha\cos\beta=\frac{1}{2}\left[
-	\cos\left(\alpha+\beta\right)+
-	\cos\left(\alpha-\beta\right)\right]\]
-	\[\sin\alpha\sin\beta=\frac{1}{2}\left[
-	\cos\left(\alpha+\beta\right)-
-	\cos\left(\alpha-\beta\right)\right]\]
-	
-	
-	\section{和差化积公式}
-	\emph{令 $ A = \alpha + \beta, B = \alpha - \beta $, 
-	则 $ \alpha = \frac{A+B}{2}, \beta = \frac{A-B}{2} $}.
-
-	\subsection{}
-	\diform
-	\[ \sin(\alpha + \beta) + \sin(\alpha - \beta) = 
-	2 \sin\alpha\cos\beta \]
-	\[ \sin(\alpha + \beta) - \sin(\alpha - \beta) = 
-	2 \cos\alpha\sin\beta \]
-	
-	\subsection{}
-	\diform
-	\[ \cos(\alpha + \beta) + \cos(\alpha - \beta) = 
-	2 \cos\alpha\cos\beta \]
-	\[ \cos(\alpha + \beta) - \cos(\alpha - \beta) = 
-	-2 \sin\alpha\sin\beta \]
-	
-	\subsection{}
-	\diform
-	\[ \sin A + \sin B 
-	= 2 \sin \frac{A + B}{2} \cos \frac{A - B}{2} \]
-	\[ \sin A - \sin B 
-	= 2 \cos \frac{A + B}{2} \sin \frac{A - B}{2} \] 
-	
-	\subsection{}
-	\diform
-	\[ \cos A + \cos B 
-	= 2 \cos \frac{A + B}{2} \cos \frac{A - B}{2} \]
-	\[ \cos A - \cos B 
-	=-2 \sin \frac{A + B}{2} \sin \frac{A - B}{2} \] 
-	
-	\section{二倍角公式}
-	\diform
-	\[ \sin2\alpha = 2 \sin\alpha \cos\alpha \]
-	\begin{align*}
-	\cos2\alpha = \cos^2\alpha-\sin^2\alpha
-	= 2\cos^2\alpha - 1 \\ = 1 - 2\sin^2\alpha
-	\end{align*}
-	\[ \tan2\alpha = \frac{2\tan\alpha}{1-2\tan\alpha} \]
-
-	\section{半角公式}
-	\diform
-	\[ \cos\frac\beta2 = \pm \sqrt{\frac{1+\cos\beta}{2}}
- 	= \frac{1-\tan^2\left(\beta/2\right)}{1+\tan^2\left(\beta/2\right)} \]
-	\[ \sin\frac\beta2 = \pm \sqrt{\frac{1-\cos\beta}{2}}
-	= \frac{2\tan\left(\beta/2\right)}{1-\tan^2\left(\beta/2\right)} \]
-	\[ \tan\frac\beta2 = \pm \sqrt{\frac{1-\cos\beta}{1+\cos\beta}}
-	= \frac{\sin\beta}{1+\cos\beta}
-	= \frac{1-\cos\beta}{\sin\beta}  \]
-
-	\section{三倍角公式}
-	\diform
-	\[ \sin3\theta = 4\sin\theta 
-	\cdot \sin\left(60\degree-\theta\right)
-	\cdot \sin\left(60\degree+\theta\right) \]
-	\[ \cos3\theta = 4\cos\theta 
-	\cdot \cos\left(60\degree-\theta\right)
-	\cdot \cos\left(60\degree+\theta\right) \]
-	\[ \tan3\theta = 4\tan\theta 
-	\cdot \tan\left(60\degree-\theta\right)
-	\cdot \tan\left(60\degree+\theta\right) \]
-	\[ \cot3\theta = 4\cot\theta 
-	\cdot \cot\left(60\degree-\theta\right)
-	\cdot \cot\left(60\degree+\theta\right) \]
-
-	\section{n 倍角公式}
-	$ \binom{n}{m} =\frac{n!}{\left( n - m\right)! m!} $
-	( $ m, n \in \mathbb{N^+}, m < n $ )
-%	http://bbs.ctex.org/forum.php?mod=viewthread&tid=46466
-	\begin{align*}
-		\sin\left(n\theta\right)
-		= & \binom n1\sin\theta\cos^{n-1}\theta
-		- \binom n3\sin^{3}\theta\cos^{n-3}\theta \\
-		+ & \binom n5\sin^{5}\theta\cos^{n-5}\theta \cdots 
-	\end{align*}
-	\begin{align*}
-		\cos\left(n\theta\right) 
-		= & \binom n0\cos^{n}\theta
-		- \binom n2\sin^{2}\theta\cos^{n-2}\theta \\
-		+ & \binom n4\sin^{4}\theta\cos^{n-4}\theta \cdots
-	\end{align*}
-	
-	\section{三角形中的三角函数关系}
-	\diform
-	\[\angle A + \angle B + \angle C = \pi \]
-	\[ \sin\left (A + B \right ) = \sin C \]
-	\[ \cos\left (A + B \right ) = -\cos C \]
-	\[ \sin\frac{A + B}{2} = \cos \frac C2 \]
-	\[ \cos\frac{A + B}{2} = \sin \frac C2 \]
-	
-	\section{辅助角公式}
+		\section{辅助角公式}
 	\diform
 	\[ a\sin\omega x + b \cos \omega x
 	= \sqrt{a^2 + b^2} \sin \left ( \omega x + \varphi \right ) \]
@@ -327,7 +324,7 @@
 	= \cos \left (x + \frac\pi4\right ) \]
 %	}
 
-\section{图形三角函数关系}
+		\section{图形三角函数关系}
 	\subsection{判断 $\sin\alpha $ 与 $\cos\alpha$ 的大小}	
 	\begin{minipage}{10em}
 		\begin{tikzpicture}[fill=black!30]
@@ -521,7 +518,7 @@
 		\item 任意顶点的三角函数等于相邻两顶点三角函数的乘积
 	\end{itemize}
 
-	\section{射影定理}
+		\section{射影定理}
 	\diform
 	\[ a = b \cos C + c \cos B \]
 	\[ b = a \cos C + c \cos A \]
